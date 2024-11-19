@@ -1,0 +1,13 @@
+[
+    {
+      "id": 1,
+      "question": "Create a class representing a Bank Account with basic functionality like deposit and withdrawal.",
+      "example_code": "class BankAccount:\n    def __init__(self, balance=0):\n        self.balance = balance\n    def deposit(self, amount):\n        self.balance += amount\n    def withdraw(self, amount):\n        self.balance -= amount"
+    },
+    {
+      "id": 2,
+      "question": "Create a class to represent a Car with attributes like make, model, and year, and methods like start and stop.",
+      "example_code": "class Car:\n    def __init__(self, make, model, year):\n        self.make = make\n        self.model = model\n        self.year = year\n    def start(self):\n        print('Car started')\n    def stop(self):\n        print('Car stopped')"
+    }
+  ]
+  
